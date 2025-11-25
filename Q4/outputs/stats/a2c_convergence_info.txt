@@ -1,0 +1,10 @@
+Environment: LunarLander-v3
+Solved at episode: 3131
+Total steps: 1303593
+Running average reward: 261.38
+Total time (sec): 7478.26
+Total time (min): 124.64
+Actor LR: 0.0001
+Critic LR: 0.0005
+Hidden size: 256
+Batch size (steps): 4096

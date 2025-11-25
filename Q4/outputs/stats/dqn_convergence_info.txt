@@ -1,0 +1,11 @@
+DQN for LunarLander-v3
+Solved at episode: 1018
+Mean last 100 reward: 200.04
+Total steps: 314523
+Training time (sec): 1130.95
+Training time (min): 18.85
+LR: 0.001
+Batch size: 64
+Buffer size: 100000
+Target update: 2000
+Epsilon final: 0.0518
