@@ -1,0 +1,28 @@
+Environment: InvertedPendulum-v4
+Algorithm: A2C
+Run name: A2C_InvPend
+Total timesteps: 300000
+
+===== EVALUATION =====
+Mean Reward: 183.4
+Std Reward : 159.3626054003887
+
+===== HYPERPARAMETERS USED =====
+algorithm: A2C
+total_timesteps: 300000
+log_interval: 200
+eval_freq: 5000
+save_freq: 20000
+Run_name: A2C_InvPend
+learning_rate: 0.0007
+gamma: 0.99
+gae_lambda: 0.95
+ent_coef: 0.0
+vf_coef: 0.5
+max_grad_norm: 0.5
+n_steps: 5
+n_envs: 16
+policy_kwargs: {'net_arch': [{'pi': [64, 64], 'vf': [64, 64]}], 'optimizer_class': <class 'torch.optim.rmsprop.RMSprop'>, 'optimizer_kwargs': {'alpha': 0.99, 'eps': 1e-05, 'weight_decay': 0}}
+
+Model saved at: logs/A2C/InvertedPendulum-v4/A2C_InvPend/models/final_model.zip
+GIF saved at  : logs/A2C/InvertedPendulum-v4/A2C_InvPend/A2C_InvertedPendulum-v4_eval.gif
